@@ -1,0 +1,30 @@
+{
+  "name": "Api_PayBus_ValidadoryWallet",
+  "version": "1.0.0",
+  "description": "Paybus Restful CRUD API with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "Victor Ramirez",
+  "license": "",
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "async-mutex": "^0.3.1",
+    "body-parser": "^1.19.0",
+    "jsonwebtoken": "^8.5.1",
+    "express": "^4.17.1",
+    "fcm-node": "^1.5.2",
+    "mysql": "^2.17.1",
+    "node-red": "^1.2.9",
+    "nodemailer": "^6.5.0",
+    "node-rest-client": "^3.1.0",
+    "microtime": "^3.0.0"
+  }
+}
